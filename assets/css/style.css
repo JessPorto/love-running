@@ -74,7 +74,7 @@ h1, h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url('../img/hero-image\ \(1\).webp') no-repeat center center;
+    background: url('../images/hero-image.webp') no-repeat center center;
 
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
@@ -183,43 +183,42 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url('../img/ethos-center-image.jpg') no-repeat center center;
+    background: url('../images/ethos-center-image.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
-#times {
-    background-image: url('../img/dublin-city.webp');
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center;
-    width:100%;
-    overflow:hidden;
+/* event times */
 
+#times {
+    background-image: url('../images/times-background.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
 }
 
 #times div {
     color: #fafafa;
-    background-color:rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, .6);
     width: 20%;
     height: 300px;
-    float:left;
-    padding:30px 0 0 10px;
+    float: left;
+    padding: 30px 0 0 10px;
     text-align: center;
-    border:2px solid white;
+    border: 2px solid white;
     box-sizing: border-box;
-
 }
 
 #times h2 {
-    color:#fafafa;
+    color: #fafafa;
 }
 
 /* footer */
 
 footer {
-    height:150px;
-
+    height: 150px;
 }
 
 .social-networks {
@@ -228,11 +227,24 @@ footer {
 
 .social-networks > li {
     display: inline;
-    }
+}
 
 .social-networks i {
     font-size: 160%;
-    margin:1%;
-    padding:5%;
-    color:#3a3a3a;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+/* gallery */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
 }
